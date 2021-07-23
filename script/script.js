@@ -1,8 +1,8 @@
 $(function(){
 
-    $("div#maultitabArea>div").click(function(){
-        $("div#maultitabArea>div").removeClass(".selected");
-        $(this).addClass(".selected");
+    $("div#multitabArea>div").click(function(){
+        $("div#multitabArea>div").removeClass("selected");
+        $(this).addClass("selected");
     });
 
 });

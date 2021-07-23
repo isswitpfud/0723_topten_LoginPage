@@ -13,7 +13,6 @@ body {
 }
 
 div#wrap {
-  border: 1px solid #000;
   width: 800px;
   height: 475px;
   padding: 10px;
@@ -24,11 +23,11 @@ div#wrap {
   margin: 0 auto;
 }
 
-#maultitabArea div {
+#multitabArea div {
   flex: 1;
 }
 
-#maultitabArea div {
+#multitabArea div {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -36,12 +35,12 @@ div#wrap {
   cursor: pointer;
 }
 
-#maultitabArea div {
+#multitabArea div {
   color: #aaa;
   border-bottom: 2px solid #eee;
 }
 
-#maultitabArea .selected {
+#multitabArea .selected {
   color: #333;
   border-bottom: 2px solid #666;
 }
